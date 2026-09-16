@@ -1,0 +1,24 @@
+button{
+    border-radius: 200px;
+    border: 0;
+    cursor: pointer;
+    background-color: #e94560;
+}
+.contador-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #16213e;
+    padding: 40px;
+    color: #e94560;
+    gap: 20px;
+    border: 16px;
+    transition: 0.3s;
+
+}
+.contador-main:hover{
+     transform: translateY(-4px);
+     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
